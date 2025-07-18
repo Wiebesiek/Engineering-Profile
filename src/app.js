@@ -1,15 +1,31 @@
 const pages = {
   home: () => `
-    <section>
-      <h1>Hi, I'm Zachariah Wiebesiek</h1>
-      <p>I'm a passionate software developer focused on building impactful, modern web applications. Welcome to my profile!</p>
-      <div style="margin-top:2rem;">
-        <img src="https://github.com/wiebesiek.png" alt="Profile" style="width:120px;border-radius:50%;box-shadow:0 2px 12px #0003;">
+    <section style="text-align:center;padding:3rem 0;">
+      <div style="display:flex;align-items:center;justify-content:center;gap:2rem;margin-bottom:2rem;flex-wrap:wrap;">
+        <img src="https://github.com/wiebesiek.png" alt="Profile" style="width:140px;height:140px;border-radius:50%;box-shadow:0 8px 32px rgba(233,69,96,0.3);border:3px solid var(--highlight);">
+        <div style="text-align:left;max-width:400px;">
+          <h1 style="margin:0 0 0.5rem 0;font-size:2.5rem;background:linear-gradient(135deg,var(--highlight),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Zachariah Wiebesiek</h1>
+          <p style="font-size:1.3rem;color:var(--muted);margin:0;">Software Developer</p>
+        </div>
       </div>
+      <p style="font-size:1.1rem;line-height:1.8;max-width:600px;margin:0 auto 2rem auto;">I'm a passionate software developer focused on building impactful, modern web applications. I specialize in creating elegant solutions that make a difference.</p>
     </section>
     <section>
-      <h2>About Me</h2>
-      <p>I am a passionate developer who loves creating high-impact solutions. I thrive in collaborative, fast-paced teams and enjoy mentoring others.</p>
+      <h2 style="text-align:center;margin-bottom:1.5rem;">About Me</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;">
+        <div class="card" style="text-align:center;">
+          <h3 style="color:var(--highlight);margin-bottom:1rem;">🚀 Innovation</h3>
+          <p>I love creating high-impact solutions that push boundaries and solve real-world problems.</p>
+        </div>
+        <div class="card" style="text-align:center;">
+          <h3 style="color:var(--highlight);margin-bottom:1rem;">🤝 Collaboration</h3>
+          <p>I thrive in fast-paced teams and enjoy mentoring others to reach their full potential.</p>
+        </div>
+        <div class="card" style="text-align:center;">
+          <h3 style="color:var(--highlight);margin-bottom:1rem;">💡 Technology</h3>
+          <p>Focused on modern web technologies, cloud-native solutions, and developer experience.</p>
+        </div>
+      </div>
     </section>
   `,
   highlights: () => `
