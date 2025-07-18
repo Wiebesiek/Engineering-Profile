@@ -1,24 +1,23 @@
-// Simple SPA router and page rendering
 const pages = {
   home: () => `
     <section>
       <h1>Hi, I'm Zachariah Wiebesiek</h1>
       <p>I'm a passionate software developer focused on building impactful, modern web applications. Welcome to my profile!</p>
       <div style="margin-top:2rem;">
-        <img src="https://avatars.githubusercontent.com/u/9919?v=4" alt="Profile" style="width:120px;border-radius:50%;box-shadow:0 2px 12px #0003;">
+        <img src="https://github.com/wiebesiek.png" alt="Profile" style="width:120px;border-radius:50%;box-shadow:0 2px 12px #0003;">
       </div>
     </section>
     <section>
       <h2>About Me</h2>
-      <p>Driven by curiosity and a love for elegant code, I specialize in full-stack JavaScript, cloud-native solutions, and developer experience. I thrive in collaborative, fast-paced teams and enjoy mentoring others.</p>
+      <p>I am a passionate developer who loves creating high-impact solutions. I thrive in collaborative, fast-paced teams and enjoy mentoring others.</p>
     </section>
   `,
   highlights: () => `
     <section>
       <h1>Engineering Highlights</h1>
       <div class="card">
-        <h3>🚀 Lead Developer, Project X</h3>
-        <p>Architected and shipped a scalable SaaS platform serving 100k+ users, leveraging React, Node.js, and Kubernetes.</p>
+        <h3>🚀 AI Infrastructure Developer, Project X</h3>
+        <p></p>
       </div>
       <div class="card">
         <h3>🛠️ OSS Contributor</h3>
@@ -33,13 +32,14 @@ const pages = {
   contact: () => `
     <section>
       <h1>Contact</h1>
-      <form id="contactForm" autocomplete="off" style="max-width:400px;">
-        <label>Name<br><input name="name" required style="width:100%;padding:0.5rem;margin-bottom:1rem;"></label>
-        <label>Email<br><input name="email" type="email" required style="width:100%;padding:0.5rem;margin-bottom:1rem;"></label>
-        <label>Message<br><textarea name="message" required rows="4" style="width:100%;padding:0.5rem;margin-bottom:1rem;"></textarea></label>
-        <button class="button" type="submit">Send</button>
-      </form>
-      <div id="contactResult" style="margin-top:1rem;"></div>
+      <div class="card">
+        <h3>📧 Email</h3>
+        <p style="font-size:1.2rem;color:var(--highlight);">
+          <a href="mailto:zach@wiebesiek.com" style="color:var(--highlight);text-decoration:none;">
+            zach@wiebesiek.com
+          </a>
+        </p>
+      </div>
     </section>
   `,
   resume: () => `
@@ -77,14 +77,6 @@ function render(page) {
   const main = document.getElementById('main');
   main.innerHTML = pages[page] ? pages[page]() : pages.home();
   setActiveNav(page);
-  if (page === 'contact') {
-    const form = document.getElementById('contactForm');
-    form.onsubmit = e => {
-      e.preventDefault();
-      document.getElementById('contactResult').textContent = 'Thank you! I will get back to you soon.';
-      form.reset();
-    };
-  }
 }
 
 window.addEventListener('DOMContentLoaded', () => {
