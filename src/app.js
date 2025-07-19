@@ -56,6 +56,14 @@ const pages = {
           </a>
         </p>
       </div>
+      <div class="card">
+        <h3>💼 LinkedIn</h3>
+        <p style="font-size:1.2rem;color:var(--highlight);">
+          <a href="https://www.linkedin.com/in/zach-wiebesiek/" target="_blank" style="color:var(--highlight);text-decoration:none;">
+            https://www.linkedin.com/in/zach-wiebesiek/
+          </a>
+        </p>
+      </div>
     </section>
   `,
   resume: () => `
