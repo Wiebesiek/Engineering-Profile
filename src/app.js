@@ -1,5 +1,5 @@
 const pages = {
-  home: () => `
+  home: () => /* html */ `
     <section style="text-align:center;padding:3rem 0;">
       <div style="display:flex;align-items:center;justify-content:center;gap:2rem;margin-bottom:2rem;flex-wrap:wrap;">
         <img src="https://github.com/wiebesiek.png" alt="Profile" style="width:140px;height:140px;border-radius:50%;box-shadow:0 8px 32px rgba(233,69,96,0.3);border:3px solid var(--highlight);">
@@ -28,7 +28,7 @@ const pages = {
       </div>
     </section>
   `,
-  highlights: () => `
+  highlights: () => /* html */`
     <section>
       <h1>Engineering Highlights</h1>
       <div class="card">
@@ -45,7 +45,7 @@ const pages = {
       </div>
     </section>
   `,
-  contact: () => `
+  contact: () => /* html */`
     <section>
       <h1>Contact</h1>
       <div class="card">
@@ -66,7 +66,7 @@ const pages = {
       </div>
     </section>
   `,
-  resume: () => `
+  resume: () => /* html */`
     <section>
       <h1>Resume</h1>
       <div class="card">
