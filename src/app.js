@@ -86,7 +86,10 @@ const pages = {
           <li>Automated testing and CI/CD</li>
         </ul>
       </div>
-      <a class="button" href="#" onclick="alert('Download coming soon!')">Download PDF</a>
+      <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 2rem;">
+        <a class="button" href="./Zach Wiebesiek Resume.pdf" target="_blank">View Resume</a>
+        <a class="button" href="./Zach Wiebesiek Resume.pdf" download="Zachariah Wiebesiek Resume.pdf">Download PDF</a>
+      </div>
     </section>
   `
 };
