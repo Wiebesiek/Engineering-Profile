@@ -5,10 +5,10 @@ const pages = {
         <img src="https://github.com/wiebesiek.png" alt="Profile" style="width:140px;height:140px;border-radius:50%;box-shadow:0 8px 32px rgba(233,69,96,0.3);border:3px solid var(--highlight);">
         <div style="text-align:left;max-width:400px;">
           <h1 style="margin:0 0 0.5rem 0;font-size:2.5rem;background:linear-gradient(135deg,var(--highlight),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Zachariah Wiebesiek</h1>
-          <p style="font-size:1.3rem;color:var(--muted);margin:0;">Software Developer</p>
+          <p style="font-size:1.3rem;color:var(--muted);margin:0;">Software Engineer</p>
         </div>
       </div>
-      <p style="font-size:1.1rem;line-height:1.8;max-width:600px;margin:0 auto 2rem auto;">I'm a passionate software developer focused on building impactful, modern web applications. I specialize in creating elegant solutions that make a difference.</p>
+      <p style="font-size:1.1rem;line-height:1.8;max-width:600px;margin:0 auto 2rem auto;">I'm a passionate software engineer focused on building impactful, modern web applications. I specialize in creating elegant solutions that make a difference.</p>
     </section>
     <section>
       <h2 style="text-align:center;margin-bottom:1.5rem;">About Me</h2>
@@ -23,7 +23,7 @@ const pages = {
         </div>
         <div class="card" style="text-align:center;">
           <h3 style="color:var(--highlight);margin-bottom:1rem;">💡 Technology</h3>
-          <p>Focused on modern web technologies, cloud-native solutions, and developer experience.</p>
+          <p>Focused on modern web technologies, cloud-native solutions, and  experience.</p>
         </div>
       </div>
     </section>
@@ -32,7 +32,7 @@ const pages = {
     <section>
       <h1>Engineering Highlights</h1>
       <div class="card">
-        <h3>🚀 AI Infrastructure Developer, Project X</h3>
+        <h3>🚀 AI Infrastructure Engineer, Project X</h3>
         <p></p>
       </div>
       <div class="card">
