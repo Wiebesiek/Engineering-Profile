@@ -39,13 +39,13 @@ nav a {
   position: relative;
 }
 nav a.active, nav a:hover {
-  color: var(--highlight);
+  color: #ff7a95;
 }
 nav a.active::after, nav a:hover::after {
   content: '';
   display: block;
   height: 2px;
-  background: var(--highlight);
+  background: #ff7a95;
   width: 100%;
   position: absolute;
   left: 0;
