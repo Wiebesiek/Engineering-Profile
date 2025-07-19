@@ -8,22 +8,22 @@ const pages = {
           <p style="font-size:1.3rem;color:var(--muted);margin:0;">Software Engineer</p>
         </div>
       </div>
-      <p style="font-size:1.1rem;line-height:1.8;max-width:600px;margin:0 auto 2rem auto;">I'm a passionate software engineer focused on building impactful, modern web applications. I specialize in creating elegant solutions that make a difference.</p>
+      <p style="font-size:1.1rem;line-height:1.8;max-width:600px;margin:0 auto 2rem auto;">I'm a passionate software engineer focused on bringing performant web applications to life.</p>
     </section>
     <section>
       <h2 style="text-align:center;margin-bottom:1.5rem;">About Me</h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;">
         <div class="card" style="text-align:center;">
           <h3 style="color:var(--highlight);margin-bottom:1rem;">🚀 Innovation</h3>
-          <p>I love creating high-impact solutions that push boundaries and solve real-world problems.</p>
+          <p>I'm passionate about exploring new technologies and refining current solutions to create impactful user experiences. I enjoy refactoring current solutions for performance and maintainability as well as greenfielding AI driven products.</p>
         </div>
         <div class="card" style="text-align:center;">
           <h3 style="color:var(--highlight);margin-bottom:1rem;">🤝 Collaboration</h3>
-          <p>I thrive in fast-paced teams and enjoy mentoring others to reach their full potential.</p>
+          <p>I excel in cross-functional teams, mentoring developers, and fostering environments where great ideas flourish through shared expertise.</p>
         </div>
         <div class="card" style="text-align:center;">
           <h3 style="color:var(--highlight);margin-bottom:1rem;">💡 Technology</h3>
-          <p>Focused on modern web technologies, cloud-native solutions, and  experience.</p>
+          <p>Specialized in modern backend technologies, cloud infrastructure, and building innovative AI solutions.</p>
         </div>
       </div>
     </section>
@@ -32,16 +32,16 @@ const pages = {
     <section>
       <h1>Engineering Highlights</h1>
       <div class="card">
-        <h3>🚀 AI Infrastructure Engineer, Project X</h3>
-        <p></p>
+        <h3>🚀 AI Software Engineer, Project X</h3>
+        <p>Developed and deployed AI pipelines for image processing and analysis at scale.</p>
       </div>
       <div class="card">
-        <h3>🛠️ OSS Contributor</h3>
-        <p>Active contributor to open-source projects, including [ProjectName] and [AnotherProject].</p>
+        <h3>🛠️ Full Stack Engineer, Vehicle Loan Offers</h3>
+        <p>Maintained and optimized vehicle offer processing system. Efficiently integrated product requests and made many performance improvements on a system that handles over 100,000 vehicles per day.</p>
       </div>
       <div class="card">
-        <h3>💡 Innovation Award</h3>
-        <p>Recipient of the 2024 Innovation Award for automating CI/CD pipelines and reducing deployment times by 80%.</p>
+        <h3>💡 Spearheaded Testing Efforts</h3>
+        <p>Implemented new standards for automated endpoint testing. Helped define and lead performance testing initiatives that took our endpoint coverage from zero to 80%.</p>
       </div>
     </section>
   `,
