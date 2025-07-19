@@ -71,7 +71,7 @@ const pages = {
       <h1>Resume</h1>
       <div class="card">
         <h3>Software Engineer - AI and Machine Learning</h3>
-        <p>DealerOn • May 2025 - Present • Remote</p>
+        <p style="color: var(--muted); font-weight: 500; margin-bottom: 1rem;"><span style="color: var(--highlight);">DealerOn</span> • May 2025 - Present • Remote</p>
         <ul>
           <li>Developed first AI at scale solutions on Azure with Python and .NET</li>
           <li>Engineered performant localized AI deployments for image analysis, improvement and extrapolation</li>
@@ -80,7 +80,7 @@ const pages = {
       </div>
       <div class="card">
         <h3>Software Engineer - Retailing, Payments and Personalization</h3>
-        <p>DealerOn • March 2024 - May 2025 • Remote</p>
+        <p style="color: var(--muted); font-weight: 500; margin-bottom: 1rem;"><span style="color: var(--highlight);">DealerOn</span> • March 2024 - May 2025 • Remote</p>
         <ul>
           <li>Developed and maintained critical micro-services using .NET, RabbitMQ, Elasticsearch and Entity Framework</li>
           <li>Lead developer for integrating and debugging third-party client-side JavaScript integrations</li>
@@ -92,7 +92,7 @@ const pages = {
       </div>
       <div class="card">
         <h3>Junior Software Engineer</h3>
-        <p>DealerOn • May 2022 - May 2024 • Remote</p>
+        <p style="color: var(--muted); font-weight: 500; margin-bottom: 1rem;"><span style="color: var(--highlight);">DealerOn</span> • May 2022 - May 2024 • Remote</p>
         <ul>
           <li>Created and maintained RESTful APIs using Azure blob storage, SQL and NoSQL via Cosmos DB</li>
           <li>Built business-facing UIs with Node.js, Vue.js, Vuetify and Tailwind for platform configuration</li>
@@ -101,7 +101,7 @@ const pages = {
       </div>
       <div class="card">
         <h3>Back-End Developer</h3>
-        <p>EmpRes Healthcare • May 2021 - May 2022 • Vancouver, WA</p>
+        <p style="color: var(--muted); font-weight: 500; margin-bottom: 1rem;"><span style="color: var(--highlight);">EmpRes Healthcare</span> • May 2021 - May 2022 • Vancouver, WA</p>
         <ul>
           <li>Developed SMS, Slack and ticketing system integrations using RESTful APIs via Python and C#</li>
           <li>Rebuilt company portal using React and MongoDB</li>
@@ -110,7 +110,7 @@ const pages = {
       </div>
       <div class="card">
         <h3>Service Desk Analyst</h3>
-        <p>EmpRes Healthcare • June 2020 - May 2021 • Vancouver, WA</p>
+        <p style="color: var(--muted); font-weight: 500; margin-bottom: 1rem;"><span style="color: var(--highlight);">EmpRes Healthcare</span> • June 2020 - May 2021 • Vancouver, WA</p>
         <ul>
           <li>Provided support to over 6,000 healthcare professionals across the Northwest</li>
           <li>Wrote PowerShell tools to efficiently create and manage accounts in Active Directory</li>
