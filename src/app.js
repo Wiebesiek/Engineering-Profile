@@ -70,12 +70,21 @@ const pages = {
     <section>
       <h1>Resume</h1>
       <div class="card">
+        <h3>Senior Software Consultant</h3>
+        <p style="color: var(--muted); font-weight: 500; margin-bottom: 1rem;"><span style="color: var(--highlight);">Sogeti</span> • October 2025 - Present</p>
+        <ul>
+          <li>Maintained large master database management systems for a banking client using event-driven microservices to process records for almost 40 million customers</li>
+          <li>Provided critical support and updates to a legacy Java master database management system</li>
+          <li>Led third-party integration work and improved throughput on vehicle financial information systems</li>
+        </ul>
+      </div>
+      <div class="card">
         <h3>Software Engineer - AI and Machine Learning</h3>
-        <p style="color: var(--muted); font-weight: 500; margin-bottom: 1rem;"><span style="color: var(--highlight);">DealerOn</span> • May 2025 - Present</p>
+        <p style="color: var(--muted); font-weight: 500; margin-bottom: 1rem;"><span style="color: var(--highlight);">DealerOn</span> • May 2025 - October 2025</p>
         <ul>
           <li>Developed first AI at scale solutions on Azure with Python and .NET</li>
           <li>Engineered performant localized AI deployments for image analysis, improvement and extrapolation</li>
-          <li>Utilized cutting edge, fine-tuned models and modern deployment via Azure Machine Learning Workspaces</li>
+          <li>Utilized cutting-edge, fine-tuned models and modern deployment and management via Azure Machine Learning Workspaces</li>
         </ul>
       </div>
       <div class="card">
@@ -83,20 +92,20 @@ const pages = {
         <p style="color: var(--muted); font-weight: 500; margin-bottom: 1rem;"><span style="color: var(--highlight);">DealerOn</span> • March 2024 - May 2025</p>
         <ul>
           <li>Developed and maintained critical micro-services using .NET, RabbitMQ, Elasticsearch and Entity Framework</li>
-          <li>Lead developer for integrating and debugging third-party client-side JavaScript integrations</li>
-          <li>Built dashboards in Grafana for enhanced system monitoring and application control flow improvements</li>
-          <li>Used ASP.NET and C# to generate HTTP, CSS and JavaScript for over a million cards daily</li>
-          <li>Led performance improvements saving millions of dependency calls daily and increased throughput by 30%</li>
-          <li>Coached new developers in .NET, teaching object-oriented design principles and NUnit testing</li>
+          <li>Led integration and debugging of third-party client-side JavaScript platform add-ons</li>
+          <li>Oversaw control flow improvements and built Grafana dashboards for enhanced system monitoring</li>
+          <li>Used ASP.NET and C# to generate HTTP, CSS and JavaScript site code for over a million cars daily</li>
+          <li>Led performance improvements that saved millions of dependency calls daily and increased throughput by 30% through concurrency</li>
+          <li>Coached new developers in .NET, teaching object-oriented design principles, dependency injection and NUnit testing</li>
         </ul>
       </div>
       <div class="card">
         <h3>Junior Software Engineer</h3>
         <p style="color: var(--muted); font-weight: 500; margin-bottom: 1rem;"><span style="color: var(--highlight);">DealerOn</span> • May 2022 - May 2024</p>
         <ul>
-          <li>Created and maintained RESTful APIs using Azure blob storage, SQL and NoSQL via Cosmos DB</li>
+          <li>Created and maintained RESTful APIs for client configuration using Azure blob storage, SQL and NoSQL via Cosmos DB</li>
           <li>Built business-facing UIs with Node.js, Vue.js, Vuetify and Tailwind for platform configuration</li>
-          <li>Spearheaded company's adoption of API testing via Postman, creating hundreds of initial tests</li>
+          <li>Spearheaded company adoption of API testing via Postman and created hundreds of tests for initial rollout</li>
         </ul>
       </div>
       <div class="card">
@@ -106,15 +115,6 @@ const pages = {
           <li>Developed SMS, Slack and ticketing system integrations using RESTful APIs via Python and C#</li>
           <li>Rebuilt company portal using React and MongoDB</li>
           <li>Created .NET LDAP tools for service desk department using PowerShell and C#</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Service Desk Analyst</h3>
-        <p style="color: var(--muted); font-weight: 500; margin-bottom: 1rem;"><span style="color: var(--highlight);">EmpRes Healthcare</span> • June 2020 - May 2021</p>
-        <ul>
-          <li>Provided support to over 6,000 healthcare professionals across the Northwest</li>
-          <li>Wrote PowerShell tools to efficiently create and manage accounts in Active Directory</li>
-          <li>Primary weekend point of contact for solving outages for over 70 facilities</li>
         </ul>
       </div>
       <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 2rem;">
