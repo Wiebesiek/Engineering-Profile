@@ -26,7 +26,7 @@ def build_artifact(repo_root: Path, deploy_root: Path) -> None:
     source_style = public_dir / "style.css"
     source_app = repo_root / "src" / "app.js"
 
-    shutil.copytree(repo_root, deploy_root)
+    shutil.copytree(repo_root, deploy_root, dirs_exist_ok=True)
 
     target_index = deploy_root / "public" / "index.html"
     target_style = deploy_root / "public" / "style.css"
