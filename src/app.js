@@ -2,7 +2,11 @@ const pages = {
   home: () => /* html */ `
     <section style="text-align:center;padding:3rem 0;">
       <div style="display:flex;align-items:center;justify-content:center;gap:2rem;margin-bottom:2rem;flex-wrap:wrap;">
-        <img src="https://github.com/wiebesiek.png" alt="Profile" style="width:140px;height:140px;border-radius:50%;box-shadow:0 8px 32px rgba(233,69,96,0.3);border:3px solid var(--highlight);">
+        <picture>
+          <source type="image/avif" srcset="/assets/images/profile-140.avif 1x, /assets/images/profile-280.avif 2x">
+          <source type="image/webp" srcset="/assets/images/profile-140.webp 1x, /assets/images/profile-280.webp 2x">
+          <img src="/assets/images/profile-140.png" srcset="/assets/images/profile-280.png 2x" width="140" height="140" alt="Profile" decoding="async" style="width:140px;height:140px;border-radius:50%;box-shadow:0 8px 32px rgba(233,69,96,0.3);border:3px solid var(--highlight);">
+        </picture>
         <div style="text-align:left;max-width:400px;">
           <h1 style="margin:0 0 0.5rem 0;font-size:2.5rem;background:linear-gradient(135deg,var(--highlight),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Zachariah Wiebesiek</h1>
           <p style="font-size:1.3rem;color:var(--muted);margin:0;">Software Engineer</p>
