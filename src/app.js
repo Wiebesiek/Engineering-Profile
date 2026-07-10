@@ -151,7 +151,11 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   });
   const initial = location.hash.replace('#','') || 'home';
-  render(initial);
+  if (initial !== 'home') {
+    render(initial);
+  } else {
+    setActiveNav('home');
+  }
 });
 window.addEventListener('popstate', e => {
   const page = (e.state && e.state.page) || location.hash.replace('#','') || 'home';

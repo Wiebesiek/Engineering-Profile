@@ -10,7 +10,7 @@
     <title>Profile | Zachariah Wiebesiek</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" href="https://github.com/wiebesiek.png" />
-    <script src="/src/app.js"></script>
+    <script src="/src/app.js" defer></script>
   </head>
   <body>
     <header>
@@ -23,7 +23,39 @@
         <a href="#resume" data-page="resume">Resume</a>
       </nav>
     </header>
-    <main id="main"></main>
+      <main id="main">
+        <section style="text-align:center;padding:3rem 0;">
+          <div style="display:flex;align-items:center;justify-content:center;gap:2rem;margin-bottom:2rem;flex-wrap:wrap;">
+            <picture>
+              <source type="image/avif" srcset="/assets/images/profile-140.avif 1x, /assets/images/profile-280.avif 2x">
+              <source type="image/webp" srcset="/assets/images/profile-140.webp 1x, /assets/images/profile-280.webp 2x">
+              <img src="/assets/images/profile-140.png" srcset="/assets/images/profile-280.png 2x" width="140" height="140" alt="Profile" decoding="async" style="width:140px;height:140px;border-radius:50%;box-shadow:0 8px 32px rgba(233,69,96,0.3);border:3px solid var(--highlight);">
+            </picture>
+            <div style="text-align:left;max-width:400px;">
+              <h1 style="margin:0 0 0.5rem 0;font-size:2.5rem;background:linear-gradient(135deg,var(--highlight),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Zachariah Wiebesiek</h1>
+              <p style="font-size:1.3rem;color:var(--muted);margin:0;">Software Engineer</p>
+            </div>
+          </div>
+          <p style="font-size:1.1rem;line-height:1.8;max-width:600px;margin:0 auto 2rem auto;">I'm a passionate software engineer focused on bringing performant web applications to life.</p>
+        </section>
+        <section>
+          <h2 style="text-align:center;margin-bottom:1.5rem;">About Me</h2>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;">
+            <div class="card" style="text-align:center;">
+              <h3 style="color:var(--highlight);margin-bottom:1rem;">🚀 Innovation</h3>
+              <p>I'm passionate about exploring new technologies and refining current solutions to create impactful user experiences. I enjoy refactoring current solutions for performance and maintainability as well as greenfielding AI driven products.</p>
+            </div>
+            <div class="card" style="text-align:center;">
+              <h3 style="color:var(--highlight);margin-bottom:1rem;">🤝 Collaboration</h3>
+              <p>I excel in cross-functional teams, mentoring developers, and fostering environments where great ideas flourish through shared expertise.</p>
+            </div>
+            <div class="card" style="text-align:center;">
+              <h3 style="color:var(--highlight);margin-bottom:1rem;">💡 Technology</h3>
+              <p>Specialized in modern backend technologies, cloud infrastructure, and building innovative AI solutions.</p>
+            </div>
+          </div>
+        </section>
+      </main>
     <footer>
       &copy; 2025 Zachariah Wiebesiek &mdash; Crafted with
       <span class="heart">&hearts;</span>
