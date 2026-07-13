@@ -1,9 +1,9 @@
 # Engineering Profile
 
-Simple personal profile website using vanilla tooling for minimal bloat and strong performance.
+Simple personal profile website using vanilla tooling for minimal bloat and strong performance. Fun, naive inlining tools created to minimize load time and achieve optimal performance.
 
 ## Installation
-Install to the web root of your preferred web server.
+Install to the web root of your preferred web server. Define path variables in the reload script and run `Reload_Homepage`.
 
 ## Required Tooling
 - `git`
@@ -32,4 +32,10 @@ ImageMagick must provide the `convert` command on your PATH for the refresh scri
 - No bloat. Simple design creates incredible speed.
 - Profile picture can be refreshed from GitHub by running the update script.
 - Simple updates: push the repo to GitHub, then run `scripts/Reload_Homepage.sh` to refresh the page and profile picture.
-- Maximum speed scores from Google Lighthouse.
+- 100s across the board on Google Lighthouse analytics for performance.
+
+## Lighthouse Results
+
+The site currently achieves perfect Lighthouse scores across all core categories.
+
+![Perfect Lighthouse scores (Performance, Accessibility, Best Practices, SEO)](./public/lighthouse-perfect-score.png)
