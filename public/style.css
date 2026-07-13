@@ -98,6 +98,18 @@ footer {
   padding: 2rem 0 1rem;
   margin-top: 2rem;
 }
+footer .footer-cta {
+  margin-top: 0.75rem;
+}
+footer .footer-cta a {
+  color: var(--highlight);
+  text-decoration: none;
+  font-weight: 600;
+}
+footer .footer-cta a:hover {
+  color: #ff7a95;
+  text-decoration: underline;
+}
 footer .heart {
   color: var(--highlight);
 }

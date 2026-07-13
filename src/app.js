@@ -13,9 +13,6 @@ const pages = {
         </div>
       </div>
       <p style="font-size:1.1rem;line-height:1.8;max-width:600px;margin:0 auto 2rem auto;">I'm a passionate software engineer focused on bringing performant web applications to life.</p>
-      <div style="display:flex;justify-content:center;">
-        <a class="button" href="https://github.com/Wiebesiek/Engineering-Profile" target="_blank" rel="noopener noreferrer">Enjoying this profile? Explore the code on GitHub.</a>
-      </div>
     </section>
     <section>
       <h2 style="text-align:center;margin-bottom:1.5rem;">About Me</h2>
