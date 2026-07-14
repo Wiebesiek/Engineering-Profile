@@ -38,4 +38,4 @@ ImageMagick must provide the `convert` command on your PATH for the refresh scri
 
 The site currently achieves perfect Lighthouse scores across all core categories.
 
-![Perfect Lighthouse scores (Performance, Accessibility, Best Practices, SEO)](./public/lighthouse-perfect-score.png)
+![Perfect Lighthouse scores (Performance, Accessibility, Best Practices, SEO)](./docs/images/lighthouse-perfect-score.png)
