@@ -123,7 +123,7 @@ const pages = {
       </div>
       <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 2rem;">
         <a class="button" href="./Zach Wiebesiek - Resume.pdf" target="_blank">View Resume</a>
-        <a class="button" href="./Zach Wiebesiek - Resume.pdf" download="Zach_Wiebesiek_Resume.pdf">Download PDF</a>
+        <a class="button" href="./Zach Wiebesiek - Resume.pdf" download="Zach Wiebesiek-Resume.pdf">Download PDF</a>
       </div>
     </section>
   `
