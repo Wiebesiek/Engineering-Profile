@@ -75,7 +75,7 @@ const pages = {
       <h1>Resume</h1>
       <div class="card">
         <h3>Senior Software Consultant</h3>
-        <p style="color: var(--muted); font-weight: 500; margin-bottom: 1rem;"><span style="color: var(--highlight);">Sogeti</span> • October 2025 - Present</p>
+        <p style="color: var(--muted); font-weight: 500; margin-bottom: 1rem;"><span style="color: var(--highlight);">Sogeti</span> • September 2025 - Present</p>
         <ul>
           <li>Maintained large master database management systems for a banking client using event-driven microservices to process records for almost 40 million customers</li>
           <li>Provided critical support and updates to a legacy Java master database management system</li>
@@ -84,7 +84,7 @@ const pages = {
       </div>
       <div class="card">
         <h3>Software Engineer - AI and Machine Learning</h3>
-        <p style="color: var(--muted); font-weight: 500; margin-bottom: 1rem;"><span style="color: var(--highlight);">DealerOn</span> • May 2025 - October 2025</p>
+        <p style="color: var(--muted); font-weight: 500; margin-bottom: 1rem;"><span style="color: var(--highlight);">DealerOn</span> • May 2025 - September 2025</p>
         <ul>
           <li>Developed first AI at scale solutions on Azure with Python and .NET</li>
           <li>Engineered performant localized AI deployments for image analysis, improvement and extrapolation</li>
@@ -122,8 +122,8 @@ const pages = {
         </ul>
       </div>
       <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 2rem;">
-        <a class="button" href="./Zach Wiebesiek Resume.pdf" target="_blank">View Resume</a>
-        <a class="button" href="./Zach Wiebesiek Resume.pdf" download="Zach_Wiebesiek_Resume.pdf">Download PDF</a>
+        <a class="button" href="./Zach Wiebesiek - Resume.pdf" target="_blank">View Resume</a>
+        <a class="button" href="./Zach Wiebesiek - Resume.pdf" download="Zach_Wiebesiek_Resume.pdf">Download PDF</a>
       </div>
     </section>
   `
